@@ -19,4 +19,17 @@
 
 ## Other projects
 
-Solen Digital was already present in the latest repository version and is retained. Other academic projects retain their CV descriptions and explicitly conceptual illustrations. Private Colab notebooks have not been reviewed; Google Drive access is required before adding notebook-derived screenshots or findings.
+Solen Digital was already present in the latest repository version and is retained. Other academic projects retain their CV descriptions as text-based case studies. The old conceptual mockups and incomplete Ritchess captures have been removed. Private Colab notebooks have not been reviewed; Google Drive access is required before adding notebook-derived screenshots or findings.
+
+## Screenshot correction
+
+- Ritchess services and fleet captures replace the incomplete homepage/video capture. All ten service and fleet photographs were downloaded unchanged from the same public image URLs and served into the browser at those URLs to avoid slow loading; the application UI was not modified. Captures were taken only after image decoding completed.
+- New asset filenames and versioned app/CSS URLs avoid stale previews.
+
+## arXiv Explorer
+
+- Source: https://github.com/assiaferjani/BI-Project
+- Public demo: https://assiaferjani.github.io/BI-Project/
+- README documents collaboration between Assia Ferjani and Ines Makhlouf, data preparation/quality/metrics/tests, and interface contributions.
+- 229,620 articles from 2020–2024 in cs.AI, cs.LG and cs.CL; 10 visualisations and 8 exploration spaces.
+- Original screenshots copied unchanged from `docs/assets/showcase-overview.jpg` and `docs/assets/showcase-trends.jpg` in the public repository.

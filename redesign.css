@@ -34,3 +34,18 @@
 .project-gallery figcaption{font-size:11px;color:var(--muted);margin-top:8px}
 .dialog-body .project-links .text-link{margin-top:0}
 .project-visual:has(.project-screenshot){aspect-ratio:1.44;background:#f6f7f9}
+
+/* Actual application captures and text-led case studies. */
+.project-visual .project-screenshot{object-fit:cover;object-position:top;aspect-ratio:1.44}
+.dialog-visual:has(.project-screenshot){height:auto;max-height:420px;overflow:hidden;background:var(--surface)}
+.dialog-visual .project-screenshot{height:auto;object-position:top}
+.studies-heading{grid-column:1/-1;padding-top:32px;border-top:1px solid var(--line)}
+.studies-heading h3{font-size:30px;font-weight:400;letter-spacing:-1px;margin:14px 0 10px}
+.studies-heading p{font-size:13px;color:var(--muted);margin:0}
+.study-card{padding:28px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.study-card .project-copy{padding:0}
+.study-card .project-title{font-size:24px}
+.study-card .project-summary{min-height:0}
+.study-action{display:inline-block;margin-top:20px;color:var(--accent);font-size:11px}
+.study-card .project-stack{padding-inline:0;margin-top:auto}
+@media(max-width:600px){.study-card{padding:23px}.study-card .project-title{font-size:22px}.studies-heading h3{font-size:27px}}
