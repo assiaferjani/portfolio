@@ -65,3 +65,14 @@ Solen Digital was already present in the latest repository version and is retain
 | variables | 23 | 1 |
 
 Reviewed notebook SHA-256: `39a35bdc2db243c59d2bc8c2ab239ca39004052062ea5b0873f70ca08b926ad4`.
+
+## Content and readability revision — 12 November 2026
+
+- Reviewed the user-supplied `Assia_Ferjani_FlowCV_Resume_2026-11-12.pdf` (3 pages). Updated all eight existing project descriptions in French and English around the need, three concrete contributions, and results.
+- Added MongoDB to LUA, Python to the sales stack and plotly to the ratings stack as documented in the CV.
+- Preserved previously verified evidence for Solen Digital and the collaborative arXiv project, which are not listed in this CV.
+- Retained the evidence-based boundaries on GreenFair’s simulated scenarios and the segmentation notebook’s separate synthetic GMM example and actual metrics. The new CV does not override the inspected source code or saved outputs.
+- The sales case describes historical growth analysis; it does not claim a validated forecasting model. The ratings finding remains scoped to the supplied dataset.
+- Replaced the downloadable CV with the exact supplied PDF; the source CV itself was not edited.
+- Readability verified in dark and light themes at 320, 390, 768, 1100 and 1440 pixels. Body copy is 14px on desktop and 13.5px on mobile. Checked text/background contrast ranges from 5.64:1 for light-theme links to 11.12:1 for dark-theme body text, across the tested color pairs.
+- Verified all eight French/English case studies and their three contribution items, gallery navigation, absence of horizontal overflow, unchanged project/source links and image data, and an HTTP download matching the supplied CV byte for byte.
