@@ -9,6 +9,8 @@ Personal portfolio showcasing full stack development, data science, and Big Data
 - French and English content
 - Dark theme by default, with a persistent light theme option
 - Project filters and detailed case studies
+- Ten authentic screenshots with thumbnails, a large image viewer and zoom
+- Keyboard navigation (arrow keys, Escape) and responsive WebP previews
 - Responsive layouts, scroll animations, and reduced-motion support
 - Portrait, downloadable CV, and contact links
 

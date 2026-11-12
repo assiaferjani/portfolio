@@ -33,3 +33,11 @@ Solen Digital was already present in the latest repository version and is retain
 - README documents collaboration between Assia Ferjani and Ines Makhlouf, data preparation/quality/metrics/tests, and interface contributions.
 - 229,620 articles from 2020–2024 in cs.AI, cs.LG and cs.CL; 10 visualisations and 8 exploration spaces.
 - Original screenshots copied unchanged from `docs/assets/showcase-overview.jpg` and `docs/assets/showcase-trends.jpg` in the public repository.
+
+## Gallery and loading improvements
+
+- Added original arXiv vocabulary, connections and mobile captures from `docs/assets/showcase-{vocabulary,connections,mobile}.jpg`, local clean checkout at `a038045fd0ca512b8a991476b3917e5093bdb924`.
+- Ten captures across Solen Digital (1), GreenFair (2), Ritchess (2) and arXiv Explorer (5). The four projects with no source screenshots remain text case studies.
+- WebP versions preserve the image content; full-resolution originals remain available through the viewer. Cards use versions at most 720 pixels wide.
+- The four project card image files total 135,156 bytes, compared with 2,022,289 bytes before this change (93% reduction). This measures the images, not the entire page.
+- Verified FR/EN labels, every image, thumbnail and arrow navigation, zoom, Escape/focus restoration, mobile overflow and light mode in Chromium.
