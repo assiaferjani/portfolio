@@ -81,3 +81,15 @@
 .viewer-footer button{flex-shrink:0}
 #project-dialog .dialog-body{padding-top:48px}
 @media(max-width:600px){.gallery-expand>img{height:250px}.gallery-topline{padding:13px;font-size:7px}.gallery-caption{padding:12px;gap:8px;align-items:flex-start}.gallery-caption p{font-size:10px}.gallery-arrows{gap:6px;font-size:9px}.gallery-arrows button{width:30px;height:30px}.gallery-thumbs{padding:0 12px 14px;gap:8px}.gallery-thumbs button{flex-basis:70px;height:52px}.gallery-expand .expand-hint{font-size:9px;bottom:9px;right:9px}#image-viewer{width:calc(100% - 12px);height:calc(100dvh - 12px)}.viewer-header{align-items:flex-start;flex-direction:column;gap:8px;padding:13px 14px}.viewer-header h2{max-width:calc(100% - 40px);font-size:14px}.viewer-tools{gap:15px;font-size:10px}.viewer-tools #viewer-close{position:absolute;right:12px;top:11px}.viewer-tools button{font-size:10px;padding:4px 9px}#viewer-stage{padding:8px}.viewer-footer{padding:12px;gap:8px}.viewer-footer p{font-size:10px}.viewer-footer button{width:32px;height:32px}}
+
+/* Preserve complete axes and legends on notebook figures. */
+.project-visual.notebook-visual,.notebook-visual .project-screenshot{background:#f8f7f4}
+.notebook-visual .project-screenshot{object-fit:contain;object-position:center}
+.notebook-visual .project-tag{top:auto;bottom:12px;right:12px;left:auto}
+
+.project-featured{grid-column:1/-1;display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center;padding:28px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.project-featured .project-summary{min-height:0}
+.project-featured .project-stack{padding:20px 0 0}
+.featured-details{display:block;background:none;padding:0;margin-top:24px;text-align:left}
+.project-featured .project-links{margin-top:14px}
+@media(max-width:700px){.project-featured{grid-template-columns:1fr;gap:24px;padding:18px}.project-featured .project-title{font-size:25px}.project-featured .project-stack{padding-top:15px}}

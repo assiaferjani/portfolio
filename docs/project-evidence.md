@@ -19,7 +19,7 @@
 
 ## Other projects
 
-Solen Digital was already present in the latest repository version and is retained. Other academic projects retain their CV descriptions as text-based case studies. The old conceptual mockups and incomplete Ritchess captures have been removed. Private Colab notebooks have not been reviewed; Google Drive access is required before adding notebook-derived screenshots or findings.
+Solen Digital was already present in the latest repository version and is retained. Other academic projects retain their CV descriptions as text-based case studies. The old conceptual mockups and incomplete Ritchess captures have been removed. The customer-segmentation notebook subsequently shared by Assia is reviewed below. Other private Colab notebooks have not been reviewed.
 
 ## Screenshot correction
 
@@ -41,3 +41,27 @@ Solen Digital was already present in the latest repository version and is retain
 - WebP versions preserve the image content; full-resolution originals remain available through the viewer. Cards use versions at most 720 pixels wide.
 - The four project card image files total 135,156 bytes, compared with 2,022,289 bytes before this change (93% reduction). This measures the images, not the entire page.
 - Verified FR/EN labels, every image, thumbnail and arrow navigation, zoom, Escape/focus restoration, mobile overflow and light mode in Chromium.
+
+## Customer segmentation — shared Colab notebook
+
+- Source: https://colab.research.google.com/drive/1gXW_s69eoeQw4ffSHBjUtI3lGtmWe_LS
+- Retrieved from the public Drive download endpoint on 12 November 2026; 25 cells. The notebook itself is not republished in this repository.
+- Reviewed the saved source and outputs, without executing notebook code.
+- Mall Customers: 200 rows, no missing values or duplicate rows in the saved checks; customer ID is excluded from clustering features.
+- K-Means and hierarchical clustering use standardised income and spending score. K-Means K=5 counts are 81, 39, 22, 35 and 23.
+- The saved feature-combination comparison (K-Means K=5) reports silhouette scores: income + spending 0.5547; without gender 0.4166; PCA 0.3878; all four features 0.3041. These are internal clustering scores, not accuracy or business-impact measures.
+- HDBSCAN searches parameters conditional on exactly five groups and minimises noise, yielding 33 noise points. The separate zero-noise variant reassigns them by nearest neighbour; it is not the raw HDBSCAN result.
+- GMM uses `make_blobs(n_samples=300, centers=4, n_features=3)`, not Mall Customers. Its silhouette of 0.695 cannot establish superiority on the real dataset. The portfolio distinguishes this synthetic example and does not publish it as a Mall Customers result.
+- Davies–Bouldin and Calinski–Harabasz are mentioned in markdown, but the saved feature-combination code computes silhouette only. Removed the earlier claim that all three metrics were used.
+- Original PNG figures are decoded directly from saved `image/png` outputs; WebP and 720px previews are display derivatives. The originals remain available through the viewer.
+
+| Figure | Zero-based cell | Zero-based output |
+| --- | --- | --- |
+| kmeans | 8 | 2 |
+| elbow | 8 | 0 |
+| correlation | 6 | 1 |
+| hdbscan | 10 | 1 |
+| hierarchy | 21 | 1 |
+| variables | 23 | 1 |
+
+Reviewed notebook SHA-256: `39a35bdc2db243c59d2bc8c2ab239ca39004052062ea5b0873f70ca08b926ad4`.

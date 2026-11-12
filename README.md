@@ -9,7 +9,7 @@ Personal portfolio showcasing full stack development, data science, and Big Data
 - French and English content
 - Dark theme by default, with a persistent light theme option
 - Project filters and detailed case studies
-- Ten authentic screenshots with thumbnails, a large image viewer and zoom
+- Sixteen authentic screenshots and notebook figures with thumbnails, a large image viewer and zoom
 - Keyboard navigation (arrow keys, Escape) and responsive WebP previews
 - Responsive layouts, scroll animations, and reduced-motion support
 - Portrait, downloadable CV, and contact links
@@ -39,4 +39,4 @@ GitHub Pages serves the root of the `main` branch. Pushing changes to `main` upd
 ## Credits
 
 Manrope is distributed under the SIL Open Font License; see `assets/Manrope-OFL.txt`.
-GreenFair Advisor, Ritchess, Solen Digital and arXiv Explorer use actual application screenshots. Other projects are presented as text-based case studies; no fabricated previews are used. See `docs/project-evidence.md` for sources and verification details. Personal photographs and CV content belong to Assia Ferjani.
+GreenFair Advisor, Ritchess, Solen Digital and arXiv Explorer use actual application screenshots. Customer segmentation uses six original figures from Assia’s shared Colab notebook. Remaining projects are presented as text-based case studies; no fabricated previews are used. See `docs/project-evidence.md` for sources and verification details. Personal photographs and CV content belong to Assia Ferjani.
