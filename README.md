@@ -37,4 +37,4 @@ GitHub Pages serves the root of the `main` branch. Pushing changes to `main` upd
 ## Credits
 
 Manrope is distributed under the SIL Open Font License; see `assets/Manrope-OFL.txt`.
-Project previews are conceptual illustrations. Personal photographs and CV content belong to Assia Ferjani.
+GreenFair Advisor, Ritchess and Solen Digital use actual application screenshots. Other previews are explicitly conceptual illustrations. See `docs/project-evidence.md` for sources and verification details. Personal photographs and CV content belong to Assia Ferjani.
