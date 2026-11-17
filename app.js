@@ -711,7 +711,7 @@ $$('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.datase
 $$('[data-filter]').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;$$('[data-filter]').forEach(x=>{const active=x===b;x.classList.toggle('active',active);x.setAttribute('aria-pressed',String(active))});renderProjects()}));
 function closeMenu(){$('#mobile-nav').hidden=true;$('.menu-toggle').setAttribute('aria-expanded','false');syncMenuLabel()}
 $('.menu-toggle').addEventListener('click',()=>{const expanded=$('.menu-toggle').getAttribute('aria-expanded')==='true';$('.menu-toggle').setAttribute('aria-expanded',String(!expanded));$('#mobile-nav').hidden=expanded;syncMenuLabel()});
-$$('#mobile-nav a').forEach(a=>a.addEventListener('click',closeMenu));document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});matchMedia('(min-width:601px)').addEventListener('change',e=>{if(e.matches)closeMenu()});
+$$('#mobile-nav a').forEach(a=>a.addEventListener('click',closeMenu));document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});matchMedia('(min-width:861px)').addEventListener('change',e=>{if(e.matches)closeMenu()});
 function toast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>$('#toast').classList.remove('visible'),3000)}
 $('#copy-email').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('assiaferjani123@gmail.com');toast(t('Adresse e-mail copiée.','Email address copied.'))}catch{toast(t('E-mail : assiaferjani123@gmail.com','Email: assiaferjani123@gmail.com'))}});
 $('#year').textContent=new Date().getFullYear();setLanguage(language);

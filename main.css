@@ -466,7 +466,7 @@ h2 em, h1 em {
 }
 .project-links { display: flex; flex-wrap: wrap; gap: 20px; padding: 18px 24px 0; }
 .project-links .text-link { font-size: 14px; }
-.project-card > :last-child { padding-bottom: 24px; }
+.project-card > :last-child:not(.featured-copy) { padding-bottom: 24px; }
 .project-card > .project-open:last-child { padding-bottom: 0; }
 
 /* Featured notebook card */
