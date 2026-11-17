@@ -28,7 +28,7 @@ Open http://localhost:8000.
 
 - `index.html`: page structure and bilingual copy
 - `app.js`: projects, experience, language and theme controls
-- `styles.css` and `redesign.css`: layout and visual design
+- `main.css`: layout and visual design (dark and light themes)
 - `motion.js`: scroll interactions
 - `assets/`: portrait, CV, fonts and social preview
 
@@ -38,5 +38,5 @@ GitHub Pages serves the root of the `main` branch. Pushing changes to `main` upd
 
 ## Credits
 
-Manrope is distributed under the SIL Open Font License; see `assets/Manrope-OFL.txt`.
+Geist and Geist Mono are loaded from Google Fonts (SIL Open Font License).
 GreenFair Advisor, Ritchess, Solen Digital and arXiv Explorer use actual application screenshots. Customer segmentation uses six original figures from Assia’s shared Colab notebook. Remaining projects are presented as text-based case studies; no fabricated previews are used. See `docs/project-evidence.md` for sources and verification details. Personal photographs and CV content belong to Assia Ferjani.
